@@ -1,0 +1,7 @@
+
+<div class="container">
+    <form [formGroup]="form" (ngSubmit)="onSubmit(form)">
+        <formly-form [model]="model" [fields]="fields" [options]="options" [form]="form" ></formly-form>
+        <button [disabled]="!form.valid"  class="center">Submit</button>
+    </form>
+</div>

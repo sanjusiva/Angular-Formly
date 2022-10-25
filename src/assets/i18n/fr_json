@@ -1,0 +1,10 @@
+{
+  "FORM": {
+    "LANG": "Changer la langue",
+    "NAME": "Nom",
+    "VALIDATION": {
+      "REQUIRED": "Ce champ est requis",
+      "MIN":"L'âge doit être supérieur à 18 ans"
+    }
+  }
+}
